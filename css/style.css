@@ -1,0 +1,136 @@
+:root {
+    --mainColor : #252734;
+    --secondaryColor : #333646;
+    --acsentColor : #FF9100;
+
+}
+
+body{
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/* Navbar Style */
+
+.nav-link.active{
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+.logo{
+    text-align: right;
+
+}
+
+
+/* Hero Style*/
+
+.color-acsent{
+    color: var(--acsentColor);
+}
+#hero {
+    color: #fff;
+    min-height: 100vh;
+}
+
+#hero h1 {
+    font-size: 2rem;
+}
+#hero h2 {
+    font-weight: 300;
+}
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.btn-custom1{
+    background-color: var(--acsentColor);
+    color: #fff;
+    text-align: center;
+    min-width: 150px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.btn-custom1:hover{
+    box-shadow: 0 0 7px rgba(255, 170, 0, .8);
+}
+
+.Social-icon svg{
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+
+/*About Style*/
+#about {
+    text-align: center;
+    color: #fff;
+    background-color: var(--secondaryColor);
+    min-height: 5rem;
+    padding-top: 90px;
+    padding-bottom: 90px;
+   
+    text-align: center;
+}
+#about p{
+    text-align: center;
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+
+
+hr{
+    width: 35%;
+    height: 7px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+}
+
+/*footer*/
+footer{
+    background-color: #595d70;
+    color: #fff;
+}
+
+footer h1{
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 15px;
+    
+    
+    margin-top: 100px;
+    margin-right: 40px;
+
+}
+
+
+.kontak h1{
+    margin-bottom: 0;
+}
+
+a{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+footer img{
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    cursor: pointer;
+}
+
+.himti{
+    justify-content: right;
+    
+}
